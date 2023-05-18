@@ -11,6 +11,9 @@ const nextConfig = {
   images: {
     domains: ['profile.line-scdn.net'],
   },
+  experimental: {
+    outputStandalone: true,
+  },
 }
 
 module.exports = nextConfig
